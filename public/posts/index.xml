@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 学習用</title>
+    <link>https://JoesRyo.github.io/study.github.io/posts/</link>
+    <description>Recent content in Posts on 学習用</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Wed, 14 Aug 2019 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://JoesRyo.github.io/study.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>20190814</title>
+      <link>https://JoesRyo.github.io/study.github.io/posts/20190814/</link>
+      <pubDate>Wed, 14 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://JoesRyo.github.io/study.github.io/posts/20190814/</guid>
+      <description>初回</description>
+    </item>
+    
+  </channel>
+</rss>

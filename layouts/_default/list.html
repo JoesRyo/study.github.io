@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+<article>
+    <ul class="item-list">
+        {{ range (.Paginator 10).Pages }}
+        <li class="item">
+            <div class="item-header">
+                <span class="date">{{ .Date.Format "2006/01/02 15:04" }}</span>
+                <span class="category">{{ with .Params.categories }}<div>{{ range . }} <a
+                            href="/categories/{{ . }}/">{{ . }}</a>{{ end }}</div>{{ end }}</span>
+            </div>
+            <div class="item-title">
+                <a href="{{ .Permalink }}">
+                    <b>{{ .Title }}</b>
+                </a>
+            </div>
+            <div class="item-summary">
+                {{ .Summary }}
+            </div>
+            <div class="item-footer">
+                [<a href="{{ .Permalink }}">
+                    <nobr>more>></nobr>
+                </a>]
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+</article>
+
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+<nav class="pagination">
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}">前へ</a>
+    {{ end }}
+    <span class="current-page">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}">次へ</a>
+    {{ end }}
+</nav>
+{{ end }}
+{{ partial "footer.html" . }}

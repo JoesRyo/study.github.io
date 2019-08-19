@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+<article class="entry">
+  <header class="entry-header">
+    <span class="entry-date">{{ .Date.Format "2006/01/02 15:04" }}</span>
+    <span class="entry-category">{{ with .Params.categories }}<div>{{ range . }} <a href="/categories/{{ . }}/">{{ . }}</a>{{ end }}</div>{{ end }}</span>
+    <h1 class="entry-title">{{ .Title }}</h1>
+  </header>
+ 
+  <div class="entry-content">
+    <p>{{ .Content }}</p>
+  </div>
+</article>
+{{ partial "footer.html" . }}

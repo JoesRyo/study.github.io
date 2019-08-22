@@ -6,12 +6,17 @@
     <description>Recent content on 学習用</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
+<<<<<<< HEAD
     <lastBuildDate>Thu, 22 Aug 2019 22:04:35 +0900</lastBuildDate>
+=======
+    <lastBuildDate>Wed, 14 Aug 2019 00:00:00 +0900</lastBuildDate>
+>>>>>>> 6f4569ff02573436b5288001843d04d6eb6218a1
     
 	<atom:link href="https://JoesRyo.github.io/study.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+<<<<<<< HEAD
       <title>Vue-1</title>
       <link>https://JoesRyo.github.io/study.github.io/posts/vue-1/</link>
       <pubDate>Thu, 22 Aug 2019 22:04:35 +0900</pubDate>
@@ -23,6 +28,8 @@ CDN &amp;lt;!-- 開発版CDN --&amp;gt; &amp;lt;script src=&amp;quot;https://cdn
     </item>
     
     <item>
+=======
+>>>>>>> 6f4569ff02573436b5288001843d04d6eb6218a1
       <title>20190814</title>
       <link>https://JoesRyo.github.io/study.github.io/posts/20190814/</link>
       <pubDate>Wed, 14 Aug 2019 00:00:00 +0900</pubDate>

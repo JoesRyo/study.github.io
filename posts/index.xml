@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 学習用</title>
+    <link>https://JoesRyo.github.io/study.github.io/posts/</link>
+    <description>Recent content in Posts on 学習用</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Thu, 22 Aug 2019 22:04:35 +0900</lastBuildDate>
+    
+	<atom:link href="https://JoesRyo.github.io/study.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vue-1</title>
+      <link>https://JoesRyo.github.io/study.github.io/posts/vue-1/</link>
+      <pubDate>Thu, 22 Aug 2019 22:04:35 +0900</pubDate>
+      
+      <guid>https://JoesRyo.github.io/study.github.io/posts/vue-1/</guid>
+      <description> Vue
+OSSのJavaScriptフレームワーク。CDN版
+CDN &amp;lt;!-- 開発版CDN --&amp;gt; &amp;lt;script src=&amp;quot;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;!-- 通常CDN --&amp;gt; &amp;lt;script src=&amp;quot;https://cdn.jsdelivr.net/npm/vue&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;  Hello Worldまで html &amp;lt;div id=&amp;quot;sample&amp;quot;&amp;gt; &amp;lt;p&amp;gt;{{message}}&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt;  js var app = new Vue({ el: &#39;#sample&#39;, // div tag data: { message: &#39;hello world.&#39; } })  if html &amp;lt;p v-if=&amp;quot;vif&amp;quot;&amp;gt;if sample.&amp;lt;/p&amp;gt;  js data: { vif: true }  for html &amp;lt;li v-for=&amp;quot;item in list&amp;quot;&amp;gt;{{item}}&amp;lt;/li&amp;gt;  js data: { list: [&#39;a&#39;, &#39;b&#39;] }  click event html &amp;lt;button v-on:click=&amp;quot;clickEvent&amp;quot;&amp;gt;click&amp;lt;/button&amp;gt;  js methods: { clickEvent: function(e) { alert(&#39;ok&#39;); } }  input html &amp;lt;p&amp;gt;{{message}}&amp;lt;/p&amp;gt; &amp;lt;input v-model=&amp;quot;message&amp;quot;&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>20190814</title>
+      <link>https://JoesRyo.github.io/study.github.io/posts/20190814/</link>
+      <pubDate>Wed, 14 Aug 2019 00:00:00 +0900</pubDate>
+      
+      <guid>https://JoesRyo.github.io/study.github.io/posts/20190814/</guid>
+      <description>初回</description>
+    </item>
+    
+  </channel>
+</rss>

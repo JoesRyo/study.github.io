@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
+    integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://JoesRyo.github.io/study.github.iostyle.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <a href="https://JoesRyo.github.io/study.github.io">
+        <h1>学習用</h1>
+      </a>
+    </header>
+
+    <main>
+<article class="entry">
+  <header class="entry-header">
+    <span class="entry-date">2019/08/22 22:04</span>
+    <span class="entry-category"></span>
+    <h1 class="entry-title">Vue-1</h1>
+  </header>
+ 
+  <div class="entry-content">
+    <p>
+
+<p><a href="https://jp.vuejs.org/index.html">Vue</a></p>
+
+<p>OSSのJavaScriptフレームワーク。CDN版</p>
+
+<h2 id="cdn">CDN</h2>
+
+<pre><code>&lt;!-- 開発版CDN --&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- 通常CDN --&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue&quot;&gt;&lt;/script&gt;
+</code></pre>
+
+<h2 id="hello-worldまで">Hello Worldまで</h2>
+
+<h3 id="html">html</h3>
+
+<pre><code>&lt;div id=&quot;sample&quot;&gt;
+    &lt;p&gt;{{message}}&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h3 id="js">js</h3>
+
+<pre><code>var app = new Vue({
+    el: '#sample', // div tag
+    data: {
+        message: 'hello world.'
+    }
+})
+</code></pre>
+
+<h2 id="if">if</h2>
+
+<h3 id="html-1">html</h3>
+
+<pre><code>&lt;p v-if=&quot;vif&quot;&gt;if sample.&lt;/p&gt;
+</code></pre>
+
+<h3 id="js-1">js</h3>
+
+<pre><code>data: {
+    vif: true
+}
+</code></pre>
+
+<h2 id="for">for</h2>
+
+<h3 id="html-2">html</h3>
+
+<pre><code>&lt;li v-for=&quot;item in list&quot;&gt;{{item}}&lt;/li&gt;
+</code></pre>
+
+<h3 id="js-2">js</h3>
+
+<pre><code>data: {
+    list: ['a', 'b']
+}
+</code></pre>
+
+<h2 id="click-event">click event</h2>
+
+<h3 id="html-3">html</h3>
+
+<pre><code>&lt;button v-on:click=&quot;clickEvent&quot;&gt;click&lt;/button&gt;
+</code></pre>
+
+<h3 id="js-3">js</h3>
+
+<pre><code>methods: {
+    clickEvent: function(e) {
+        alert('ok');
+    }
+}
+</code></pre>
+
+<h2 id="input">input</h2>
+
+<h3 id="html-4">html</h3>
+
+<pre><code>&lt;p&gt;{{message}}&lt;/p&gt;
+&lt;input v-model=&quot;message&quot;&gt;
+</code></pre>
+</p>
+  </div>
+</article>
+</main>
+ 
+<footer>
+  <div class="home">
+    <a href="https://JoesRyo.github.io/study.github.io">
+      [home]
+    </a>
+  </div>
+  <small>© 2019</small>
+</footer>
+</div>
+</body>
+</html>

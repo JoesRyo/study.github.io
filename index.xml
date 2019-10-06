@@ -6,17 +6,22 @@
     <description>Recent content on 学習用</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-<<<<<<< HEAD
-    <lastBuildDate>Thu, 22 Aug 2019 22:04:35 +0900</lastBuildDate>
-=======
-    <lastBuildDate>Wed, 14 Aug 2019 00:00:00 +0900</lastBuildDate>
->>>>>>> 6f4569ff02573436b5288001843d04d6eb6218a1
+    <lastBuildDate>Sun, 06 Oct 2019 20:38:58 +0900</lastBuildDate>
     
 	<atom:link href="https://JoesRyo.github.io/study.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-<<<<<<< HEAD
+      <title>20191006</title>
+      <link>https://JoesRyo.github.io/study.github.io/posts/20191006/</link>
+      <pubDate>Sun, 06 Oct 2019 20:38:58 +0900</pubDate>
+      
+      <guid>https://JoesRyo.github.io/study.github.io/posts/20191006/</guid>
+      <description>資格学習 DBABronze 1.25h 教科書
+運動量 サイクリング: 18.3km 1.0h</description>
+    </item>
+    
+    <item>
       <title>Vue-1</title>
       <link>https://JoesRyo.github.io/study.github.io/posts/vue-1/</link>
       <pubDate>Thu, 22 Aug 2019 22:04:35 +0900</pubDate>
@@ -28,8 +33,6 @@ CDN &amp;lt;!-- 開発版CDN --&amp;gt; &amp;lt;script src=&amp;quot;https://cdn
     </item>
     
     <item>
-=======
->>>>>>> 6f4569ff02573436b5288001843d04d6eb6218a1
       <title>20190814</title>
       <link>https://JoesRyo.github.io/study.github.io/posts/20190814/</link>
       <pubDate>Wed, 14 Aug 2019 00:00:00 +0900</pubDate>
